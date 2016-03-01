@@ -9,6 +9,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     RadioButton rdbAndroid6, rdbLearn, rdbEssential, rdbHeads;
     TextView txtDescrip;
+    String Mensaje;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
