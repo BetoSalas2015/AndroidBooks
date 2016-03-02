@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.betosoft.androidbooks.MainActivity"
+    android:orientation="horizontal">
+
+    <!-- Lista de Titulos de libros -->
+   <fragment
+       android:layout_width="0sp"
+       android:layout_height="match_parent"
+       android:name="com.betosoft.androidbooks.BookListFragment"
+       android:layout_weight="1"
+       android:id="@+id/fragmentTitles">
+
+   </fragment>
+
+    <!-- Descripción del libro Seleccionado -->
+    <fragment
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.betosoft.androidbooks.BookDescFragment"
+        android:id="@+id/fragmentDescription"
+
+        >
+
+    </fragment>
+
+
+
+</LinearLayout>
